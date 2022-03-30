@@ -1,0 +1,18 @@
+{
+  "maven_url": "http://maven.aliyun.com/nexus/content/groups/public/",
+  "maven_repo": [ {
+    "url" : "https://maven.pkg.github.com/ubsi-home/maven/",
+    "user": "{your-github-account}",
+    "password": "{your-github-Personal_Access_Token}"
+  }, {
+    "url" : "{your-maven-repository-url}",
+    "user": "{your-maven-account}",
+    "password": "{your-maven-password}"
+  } ],
+  "service_name": null,
+  "service_class": "ubsi.demo.filter.Container",
+  "jar_group": "ubsi.demo",
+  "jar_artifact": "ubsi.demo.filter",
+  "jar_version": "1.0",
+  "config": null
+}
